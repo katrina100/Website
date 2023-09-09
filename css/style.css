@@ -51,7 +51,7 @@ body {
 }
 
 section {
-	padding: 5em 2em;
+	padding: 4em 2em;
 }
 
 img {
@@ -169,7 +169,7 @@ nav { display: none; }
 	align-items: flex-end;
     background: var(--clr-accent);
     padding: 1em;
-    border-radius: 5px; /* Add rounded corners to the dropdown */
+    border-radius: 5px; 
     box-shadow: var(--bs);
 }
 
@@ -259,24 +259,22 @@ nav { display: none; }
 	bottom: 6px;
 }
 
-/* Styles for the hamburger when the navigation is open */
+
 .nav-open .hamburger,
 .nav-open .hamburger::before,
 .nav-open .hamburger::after {
-    background: var(--clr-dark); /* Change the background color to black */
-    width: 1.2em; /* Reduce the width to make it smaller */
-    height: 1.5px; /* Reduce the height to make it smaller */
+    background: var(--clr-dark); 
+    height: 1.5px; 
 	top: -0.5em;
 	right: -1em;
 }
 
-/* Positions for the hamburger when the navigation is open */
 .nav-open .hamburger::before {
-    top: 6px; /* Adjust the position */
+    top: 6px; 
 }
 
 .nav-open .hamburger::after {
-    bottom: 6px; /* Adjust the position */
+    bottom: 6px; 
 }
 
 .nav-open .hamburger:hover .line {
@@ -331,11 +329,11 @@ nav { display: none; }
 	}
 }
 
-/* My abilities */
+/* My fav things to do */
 
 .my-services {
-	background-color: var(--clr-dark);
-	background-image: url(../img/rio19.jpeg);
+	background-color:var(--clr-dark);
+	background-image: url(../img/rio32.jpeg);
 	background-size: cover;
 	background-blend-mode: multiply;
 	color: var(--clr-light);
@@ -375,7 +373,7 @@ nav { display: none; }
 @media (min-width: 800px) {
 	.services {
         display: flex;
-        max-width: 100%;
+        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between; 
@@ -383,8 +381,8 @@ nav { display: none; }
     }
 
     .service {
-        flex-basis: calc(20% - 2em); /* 20% width for each column, minus 2em for margins */
-        margin-left: 0; /* Remove left margin for the first column */
+        flex-basis: calc(20% - 2em); 
+        margin-left: 0; 
     }
 }
 
@@ -408,7 +406,7 @@ nav { display: none; }
 @media (min-width: 600px) {
 	.about-me {
 		display: grid;
-		grid-template-columns: 1fr 0.6fr;
+		grid-template-columns: 1fr 200px;
 		grid-template-areas: 
 		"title img"
 		"subtitle img"
@@ -442,7 +440,7 @@ nav { display: none; }
 	}
 }
 
-/* My Projects */
+/* My memories */
 
 .projects {
 	background-color: var(--clr-dark);
@@ -508,7 +506,6 @@ nav { display: none; }
 }
 
 .social-list {
-	/* right: 100%; */
 	font-size: 0.75em;
 	list-style: none;
 	display: flex;
@@ -525,7 +522,7 @@ nav { display: none; }
 	padding: .5em;
 }
 
-/* Portfolio Items */
+/* Portfolio  */
 
 .portfolio-item-individual {
 	padding: 0 2em 2em;
