@@ -15,7 +15,7 @@
 
 	--clr-light: #fff;
 	--clr-dark: #303030;
-	--clr-accent: #035547e9;
+	--clr-accent: #16e0bd;
 
 	--fs-h1: 3rem;
 	--fs-h2: 2.25rem;
@@ -43,10 +43,8 @@ html {
 
 body {
 	background: var(--clr-dark);
-    color: var(--clr-light);
 	margin: 0;
 	font-family: var(--ff-primary);
-    font-size: var(--fs-body);
 	line-height: 1.6;
 }
 
@@ -145,7 +143,12 @@ header {
 .logo {
 	max-width: 150px;
 }
-
+.home {
+	max-width: 400px;
+}
+.my-services {
+	max-width: 400px;
+}
 .nav {
 	position: fixed;
 	background: var(--clr-dark);
@@ -285,7 +288,7 @@ header {
 .intro {
 	color: var(--clr-light);
 	position: relative;
-	padding-top: 3em;
+	padding-top: 7em;
 	padding-bottom: 17em;
 }
 
@@ -312,7 +315,7 @@ header {
 
 	.intro__img {
 		grid-area: img;
-		min-width: 500px;
+		min-width: 700px;
 		position: relative;
 		z-index: 2;
 	}
@@ -331,16 +334,16 @@ header {
 /* My abilities */
 
 .my-services {
-	background-color: rgb(102, 108, 160);
-	background-image: url(../img/background_nas.webp);
-	background-size: cover;
+	background-color: var(--clr-dark);;
+	background-image: url(../img/rio16.jpeg);
+	background-size: max;
 	background-blend-mode: multiply;
 	color: var(--clr-light);
 	text-align: center;
 }
 
 .section__title--services {
-	color: var(--clr-accent); 
+	color: var(--clr-accent);
 	position: relative;
 }
 
